@@ -1,0 +1,19 @@
+Notes : need to execute all below command
+
+npm install playwright --save-dev
+
+npm install @playwright/test --save-dev
+
+npm install typescript --save-dev
+
+npx tsc --init
+
+
+Step 1 : npm init playwright@latest
+
+Step 2 : run test 
+    -> npx playwright test
+    -> npx playwright test --headed
+
+Step 3 : show reports
+    -> npx playwright show-report
